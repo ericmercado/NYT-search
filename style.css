@@ -1,0 +1,48 @@
+.form {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 1px solid grey;
+	border-radius: 2px;
+	color: black;
+	margin: 50px;
+	font-size: 40px;
+
+}
+#section {
+	position: relative;
+	left: 200;
+}
+.entryBox, .records, .syear, .eyear {
+	border: 2px solid black;
+	border-radius: 2px;
+	background: white;
+	color: black;
+	margin: 10px;
+	padding-left: 30px;
+	font-size: 24px;
+}
+.header {
+	border: 2px solid black;
+	border-radius: 2px;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	background: #213258;
+	margin: 20px;
+	padding: 20px;
+}
+.headline {
+	color: white;
+	font-size: 24px
+	font-weight: 600;
+	background: #213258;
+}
+.image {
+	height: 5%;
+	width: 5%;
+	margin-right: 10px;
+}
+.topArticles {
+	margin: 50px;
+}

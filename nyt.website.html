@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New York Times Search</title>
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Merriweather|Oswald:700|Raleway:500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="NYT website group project/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1 class="header"><img class="image" src="iconOne.png">New York Times Search</h1>
+	<div id="row"></div>
+	<form class="form">
+		<div class="headline col-sm-12">Search Parameters: </div>
+		<section class="col-sm-10">
+
+		<p class="entryBox"> Search Terms: <input class="col-sm-4" type="text" id="search"></p>
+		
+		<p class="entryBox">Number of Records to Retrieve: <input class="col-sm-4" type="text" id="numRecords"></p>
+		
+		<p class="entryBox">Start Year (Optional): <input class="col-sm-4" type="number" id="start"></p>
+		
+		<p class="entryBox">End Year (Optional): <input class="col-sm-6" type="number" id="end" ></p>
+		
+		<p class="buttons"><button class="col-sm-3" id="searchButton">Search</button>
+		<button class="col-sm-3" id="clearButton">Clear Results</button></p>
+		</section>
+	</form>
+	<div class="row">
+		<div id="topArticles"></div>
+	</div>
+<script type="text/javascript" src="NYT website group project/nyt.website.js"></script>
+</body>
+
+</html>
+
+ <!-- placeholder="enter search term here.." -->
+<!--  placeholder="how many records would you like to retrieve.."
+ placeholder="enter start year..
+ placeholder="enter end year.." -->
